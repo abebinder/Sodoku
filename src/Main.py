@@ -157,7 +157,7 @@ def recursiveSolve(arr):
                         possibles_array[i][j]=[]
                         return arr
 
-theFileName=input("enter filename\n")
+theFileName=input("enter filename of where sodoku puzzle is stored\n")
 initialize_sodoku_array()
 initialize_possibles_array()
 sodoku_array= recursiveSolve(sodoku_array)
